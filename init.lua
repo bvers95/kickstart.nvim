@@ -157,6 +157,9 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- BV: custom netrw options
+-- default = noma nomod nonu nowrap ro nobl
+vim.g.netrw_bufsettings = 'nu rnu'
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
